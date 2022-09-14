@@ -1,0 +1,33 @@
+
+body{
+    background:linear-gradient(to right,greenyellow,red,black);
+}
+
+.heading{text-align: center;margin-top:10px; }
+
+.display-data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap:20px;
+    
+}
+
+.player-card{
+    width : 400px;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-weight: bolder;
+    background-color:white;
+    box-shadow: 10px 10px 10px white;
+    margin: auto;
+    background: radial-gradient(dodgerblue,grey);
+}
+
+/*changing the properties based on screen size for responsiveness using media query*/
+@media screen and (max-width:768px){
+    .display-data{
+        flex-direction: column;
+    }
+}
