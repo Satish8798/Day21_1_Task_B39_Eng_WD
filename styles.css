@@ -30,4 +30,7 @@ body{
     .display-data{
         flex-direction: column;
     }
+    .player-card{
+        width:200px;
+    }
 }
